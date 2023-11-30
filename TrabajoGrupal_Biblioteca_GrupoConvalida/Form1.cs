@@ -27,7 +27,7 @@ namespace TrabajoGrupal_Biblioteca_GrupoConvalida
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            //EJEMPLO ch
+            //EJEMPLO ch jvdgufdysfyosad
         }
     }
 }
