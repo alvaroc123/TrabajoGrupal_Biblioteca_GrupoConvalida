@@ -17,7 +17,12 @@ namespace TrabajoGrupal_Biblioteca_GrupoConvalida
 
         private void btnPrueba_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("CAPA HIJO DE PUTA","Puto capa",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            MessageBox.Show("CAPA HIJO DE PUTA", "Puto capa", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //HOLA
         }
     }
 }

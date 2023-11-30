@@ -31,6 +31,7 @@
             components = new System.ComponentModel.Container();
             bindingSource1 = new BindingSource(components);
             btnPrueba = new Button();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
@@ -44,11 +45,22 @@
             btnPrueba.UseVisualStyleBackColor = true;
             btnPrueba.Click += btnPrueba_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(489, 197);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 1;
+            button1.Text = "Boton prueba";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(789, 462);
+            Controls.Add(button1);
             Controls.Add(btnPrueba);
             Name = "Form1";
             Text = "Form1";
@@ -61,5 +73,6 @@
 
         private BindingSource bindingSource1;
         private Button btnPrueba;
+        private Button button1;
     }
 }
