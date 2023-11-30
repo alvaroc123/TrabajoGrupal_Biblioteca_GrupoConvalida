@@ -10,6 +10,7 @@ namespace TrabajoGrupal_Biblioteca_GrupoConvalida
         private void Form1_Load(object sender, EventArgs e)
         {
 
+            MessageBox.Show("Bemvido", "Puto", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
         }
