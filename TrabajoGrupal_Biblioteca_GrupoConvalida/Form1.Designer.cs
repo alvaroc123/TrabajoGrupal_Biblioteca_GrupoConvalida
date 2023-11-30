@@ -28,19 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            bindingSource1 = new BindingSource(components);
+            btnPrueba = new Button();
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
+            // 
+            // btnPrueba
+            // 
+            btnPrueba.Location = new Point(336, 197);
+            btnPrueba.Name = "btnPrueba";
+            btnPrueba.Size = new Size(75, 23);
+            btnPrueba.TabIndex = 0;
+            btnPrueba.Text = "Boton prueba";
+            btnPrueba.UseVisualStyleBackColor = true;
+            btnPrueba.Click += btnPrueba_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(789, 462);
+            Controls.Add(btnPrueba);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
+
+        private BindingSource bindingSource1;
+        private Button btnPrueba;
     }
 }
