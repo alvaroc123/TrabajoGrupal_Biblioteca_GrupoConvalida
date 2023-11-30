@@ -32,6 +32,7 @@
             bindingSource1 = new BindingSource(components);
             btnPrueba = new Button();
             button1 = new Button();
+            checkBox1 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
@@ -55,11 +56,23 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(301, 56);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(83, 19);
+            checkBox1.TabIndex = 2;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(789, 462);
+            Controls.Add(checkBox1);
             Controls.Add(button1);
             Controls.Add(btnPrueba);
             Name = "Form1";
@@ -67,6 +80,7 @@
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -74,5 +88,6 @@
         private BindingSource bindingSource1;
         private Button btnPrueba;
         private Button button1;
+        private CheckBox checkBox1;
     }
 }
